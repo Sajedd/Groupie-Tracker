@@ -57,7 +57,7 @@ func card(id int) *fyne.Container {
 	r, _ := fyne.LoadResourceFromURLString(testmodel.GetArtistsID(id).Image)
 	img := canvas.NewImageFromResource(r)
 	img.FillMode = canvas.ImageFillOriginal
-	img.SetMinSize(fyne.NewSize(230, 230))
+	// img.SetMinSize(fyne.NewSize(230, 230))
 	btn := widget.NewButton(testmodel.GetArtistsID(id).Name, func() {
 		GetInfosBtn(id)
 	})
@@ -74,7 +74,7 @@ func navbar() *fyne.Container {
 
 	searchButton := widget.NewButton("Rechercher", func() {
 		for i := 0; i < 54; i++ {
-			if strings.EqualFold(searchEntry.Text, testmodel.GetArtistsID(i).Name){
+			if strings.EqualFold(searchEntry.Text, testmodel.GetArtistsID(i).Name) {
 				GetInfosBtn(i)
 			}
 		}
@@ -210,7 +210,7 @@ func getRelations(id int) {
 		title = title + locationAndDate
 	}
 	var listOfDates []string = strings.Split(title, ",")
-	
+
 	reverse(listOfDates)
 	buttonStatus = 0
 	for _, val := range listOfDates {
@@ -231,7 +231,7 @@ func getRelations(id int) {
 			twoColumnsGroup.RemoveAll()
 			buttonStatus = 0
 		}
-		
+
 		// buttonStatus2 = 1
 	}
 	infoGroup.Add(container)
