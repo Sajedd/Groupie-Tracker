@@ -1,6 +1,7 @@
 # Groupie Tracker - API Go Fyne 🎵
 
-![Groupie Tracker Accueil](./assets/images/Capture d'écran 2023-03-08 212631.png)
+![Capture d'écran 2023-03-08 212631](https://github.com/Sajedd/Groupie-Tracker/assets/112949717/3e3c227f-9275-4b0d-b442-28d86ac5d544)
+
 
 ## Description 📝
 
@@ -41,7 +42,7 @@ Pour me contacter, merci de remplir le formulaire de contact sur la page ou envo
 
 ## Liens Utiles 🔗
 
-- [Mon CV](./assets/images/Cv.pdf)
+- [Mon CV]([Ben Youssef Sajed (2).pdf](https://github.com/Sajedd/Groupie-Tracker/files/14214646/Ben.Youssef.Sajed.2.pdf))
 - [Mes Répertoires GitHub](https://github.com/Sajedd)
 
 ---
