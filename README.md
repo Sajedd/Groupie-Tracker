@@ -42,7 +42,7 @@ Pour me contacter, merci de remplir le formulaire de contact sur la page ou envo
 
 ## Liens Utiles 🔗
 
-- [Mon CV]([Ben Youssef Sajed (2).pdf](https://github.com/Sajedd/Groupie-Tracker/files/14214646/Ben.Youssef.Sajed.2.pdf))
+- [([Ben Youssef Sajed (2).pdf](https://github.com/Sajedd/Groupie-Tracker/files/14214646/Ben.Youssef.Sajed.2.pdf))]
 - [Mes Répertoires GitHub](https://github.com/Sajedd)
 
 ---
